@@ -1,0 +1,12 @@
+{
+    "[sql]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
+    },
+    "Prettier-SQL.commaPosition": "before", // カンマを先頭に配置
+    "Prettier-SQL.denseOperators": false, // 演算子前後に空白
+    "Prettier-SQL.keywordCase": "upper", // SQLキーワードを大文字
+    "Prettier-SQL.linesBetweenQueries": 0, // クエリ間に空行を作成しない
+    "Prettier-SQL.logicalOperatorNewline": "before", // AND, BEFORE使用前に改行
+    "Prettier-SQL.newlineBeforeSemicolon": false // セミコロンを改行しない
+}
